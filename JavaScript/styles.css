@@ -1,0 +1,43 @@
+body,html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: #5F6F65;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#card{ 
+    padding:  20px 20px;
+    height: 400px;
+    width: 300px;
+background-color: #C9DABF;
+border-radius: 10px;
+text-align: center;
+}
+#card img{
+    object-position: center;
+    object-fit: cover;
+    border-radius: 10px;
+    height: 50%;
+    width: 100%; 
+
+}
+#card h1{
+    font-size: 25px;
+    margin: 10px 0;
+}
+#card h5{
+    font-size: 15px;
+    margin: 10px 0;
+    color: red;
+}
+#card button{
+    background-color: #9CA986;
+    font-weight: 700;
+    color: black;
+    padding: 12px 25px;
+    border-radius: 50px;
+    border: none;
+}
